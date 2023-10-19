@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #fffbc6;
+    font-family: monospace;
+}
+h1{
+    color: rgb(231, 235, 26);
+    font-family: monospace;
+}
+.menusuperior{
+    background-color: #000000;
+    font-size: 12px;
+    list-style-type: none;
+    text-align: center;
+}
+.menusuperior li{
+    display:inline-block;
+    padding: 20px;
+}
+
+.menusuperior a{
+    font-weight: 600px;
+    color: #000000;
+    background-color: #fff34a;
+    border-radius: 10px solid #fff565;
+    text-decoration: none;
+    font-family:cursive;
+    font-size:25px;
+}
+.seccion{
+    margin: 2rem;
+    background-color: rgb(143, 115, 115);
+    padding: 1rem;
+    border: 1px solid;
+    box-shadow: #ecde14 3px 3px;
+}
+.main__boton{
+    padding: 1.4rem 2.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ebe373;
+    cursor: pointer;
+    font-weight: 600;
+    }
+    .main__boton:hover{
+        background-color: #f7fa3b;
+    }
+    .main__boton:active{
+        background-color: #fceb00ad;
+    }
+    .imagen{
+        text-align: center;
+        padding: 10rem;
+        opacity: 0.5;
+    }
+    .footer{
+        background-color: #fff021;
+        text-align: center;
+        padding: 1rem;
+        font-family: monospace;
+        font-size: 15px;
+    }
+  .card{
+font-family: monospace;
+font-size: 15px;
+display: flex;
+padding: 1rem;
+  }
+ 
+  .card-body{
+    background-color: #fff9a5;
+   width: 18rem;
+
+  }
+ .card-title{
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 30px 50px;
+    }
+    .presento{
+        background-color: rgb(157, 231, 236);
+        padding: 5rem;
+      padding-left: 55rem;
+    }
+    .formulario{
+        background-color: #fff56f;
+    }
+   .form{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+   flex: content;
+   }
